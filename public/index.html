@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Playlist Editor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="playlist-area">
+    <h1>Playlist</h1>
+    <table id="playlist-table">
+      <tbody></tbody>
+    </table>
+  </div>
+  
+  <div id="input-area">
+    <label>Enter Song Title:</label>
+    <input type="text" id="song-title" />
+    <button id="submit-btn">Submit</button>
+  </div>
+  
+  <div id="search-results-area">
+    <h1 id="search-heading">Songs matching: </h1>
+    <table id="search-results-table">
+      <tbody></tbody>
+    </table>
+  </div>
+  
+  <script src="client.js"></script>
+</body>
+</html>

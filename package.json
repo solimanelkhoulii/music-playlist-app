@@ -1,0 +1,13 @@
+{
+  "name": "music-playlist-editor",
+  "version": "1.0.0",
+  "description": "COMP 2406 Assignment 4",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  }
+}
